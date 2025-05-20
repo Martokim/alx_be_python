@@ -1,5 +1,5 @@
-number1 = 3
-number2 = 6
+number1 = 10
+number2 = 5
 sum = number1 + number2
 sub = number2 - number1
 mult = number1 * number2
