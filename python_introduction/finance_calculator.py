@@ -8,7 +8,7 @@ It will then project these savings over a year, assuming a fixed interest rate,
 to demonstrate compound interest’s effect on savings.
 '''
 monthly_income = int(input('Enter your monthly income: '))
-total_monthly_expenses = int(input('Enter your total monthly expenses: '))
+monthly_expenses = int(input('Enter your total monthly expenses: '))
 
 #monthly monthly_savings
 monthly_savings = monthly_income - total_monthly_expenses 
