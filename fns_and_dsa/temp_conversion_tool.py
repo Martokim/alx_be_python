@@ -1,4 +1,3 @@
-# Global conversion factors (no spaces!)
 FAHRENHEIT_TO_CELSIUS_FACTOR = 5/9
 CELSIUS_TO_FAHRENHEIT_FACTOR = 9/5
 
@@ -10,8 +9,8 @@ def convert_to_fahrenheit(celsius):
 
 def run_temperature_conversion():
     try:
-        temp = float(input("Enter temperature: "))
-        unit = input("Is this temperature in Fahrenheit (F) or Celsius (C)? ").strip().upper()
+        temp = float(input("Enter the temperature to convert: "))
+        unit = input("Is this temperature in Celsius or Fahrenheit? (C/F): ").strip().upper()
 
         if unit == 'F':
             celsius = convert_to_celsius(temp)
