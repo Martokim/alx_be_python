@@ -14,3 +14,8 @@ def main():
 
 if __name__ == "__main__":
     main()
+# This code is a simple command-line interface for the robust division calculator.
+# It takes two command-line arguments (numerator and denominator) and uses the `safe_divide` function to perform the division.
+# If the arguments are not provided correctly, it prints a usage message and exits.
+# The `safe_divide` function handles division by zero and type errors, returning appropriate error messages.
+# The result of the division or an error message is printed to the console.
