@@ -16,7 +16,7 @@ def safe_divide(numerator, denominator):
         return f"The result of dividing {num} by {denom} is {result}"
         return numerator / denominator
     except ZeroDivisionError:
-        print("Error: Division by zero.")
+        print("Error: Cannot divide by zero.")
     except ValueError:
         print("Error: Both numerator and denominator must be numbers.")
     return None 
