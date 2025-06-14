@@ -18,6 +18,6 @@ def safe_divide(numerator, denominator):
     except ZeroDivisionError:
         print("Error: Cannot divide by zero.")
     except ValueError:
-        print("Error: Both numerator and denominator must be numbers.")
+        print("Error: Please enter numeric values only.")
     return None 
          
